@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore India | Signup</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- form -->
+    <form action="" class="loginform">
+      <p class="login">Sign Up</p>
+      <!-- text -->
+      <label for="fname">First Name:</label>
+      <div class="logincontent">
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        required
+        placeholder="Enter your first name"
+      />
+      <br /><br />
+      <label for="lname">Last Name:</label>
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        required
+        placeholder="Enter your last name"
+      />
+      <br ><br >
+      <!-- email -->
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="It should contain @"
+      />
+      <br><br>
+      <!-- mobno -->
+      <label for="mobno">Mobile:</label>
+      <input
+        type="number"
+        name="mobno"
+        id="mobno"
+        required
+        placeholder="only 10 digits are allowed"
+        pattern="{10}"
+      />
+      <br> <br>
+      <!-- gender -->
+      <p>
+        Gender:
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </p>
+      <br><br>
+      <!-- dob -->
+      <label for="dob">Date Of Birth:</label>
+      <input type="date" name="dob" id="dob" required />
+      <br /><br />
+      <label for="city">City:</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        required
+        placeholder="Enter your City Name"
+      />
+      <br /><br />
+      <label for="state">State:</label>
+      <input
+        type="text"
+        name="state"
+        id="state"
+        required
+        placeholder="Enter your State Name"
+      />
+      <br /><br />
+      <label for="text">Country of Residence:</label>
+      <input
+        type="text"
+        name="text"
+        id="text"
+        placeholder="Enter your Country"
+      />
+      <br /><br />
+      <label for="text">Favourite Destination :</label>
+      <input
+        type="text"
+        name="text"
+        id="text"
+        placeholder="Type your Fav. Destination"
+      />
+      <!-- password -->
+      <br /><br />
+      <label for="pwd">Password:</label>
+      <input
+        type="password"
+        name="pwd"
+        id="pwd"
+        required
+        placeholder="Enter your Password"
+      />
+      <br /><br />
+      <label for="pwd">Confirm Password:</label>
+      <input
+        type="password"
+        name="pwd"
+        id="pwd"
+        required
+        placeholder="Enter your Password"
+      />
+      <br /><br />
+      <!-- checkbox -->
+      <input type="checkbox" name="checkbox" id="checkbox" required />
+      <label for="checkbox"
+        >I agree to the Terms & Conditions and Privacy Policy</label
+      >
+      <br /><br />
+      <!-- submit -->
+      <input type="submit" value="Sign Up" />
+    </div>
+    </form>
+  </body>
+</html>

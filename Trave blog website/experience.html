@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore India| Add an Experience</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Gruppo&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body id="expform">
+
+  <div id="exp">
+    <p><strong>Add an Experience</strong></p>
+  </div>
+  <div id="form">
+    <form id="myForm">
+      <label for="firstName">First Name :*</label>
+      <input type="text" name="firstName" id="firstName" required placeholder="Enter your First Name" />
+      <br /><br />
+      
+      <label for="lastName">Last Name : </label>
+      <input type="text" name="lastName" id="lastName" placeholder="Enter your Last Name" required />
+      <br /><br />
+      
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gen" id="male" />
+        <label for="male">Male : </label>
+        <input type="radio" name="gen" id="female" />
+        <label for="female">Female : </label>
+      </fieldset>
+      <br />
+      
+      <label for="dob">D.O.B :*</label>
+      <input type="date" name="dob" id="dob" required />
+      <br /><br />
+      
+      <label for="email">Mail ID :*</label>
+      <input type="email" name="email" id="email" placeholder="It should contain @ " required />
+      <br /><br />
+      
+      <label for="phone">Mobile No. :* </label>
+      <input type="number" name="tel" id="tel" placeholder="123-4567-890" pattern="[0-2]{3}-[0-3]{4}-[0-2]{3}" required />
+      <br /><br />
+      
+      <label for="">Travel Companion :* </label>
+      <select name="" id="">
+        <option value="Choose Companion">--Select your Travel Companion</option>
+        <option value="Family">Family</option>
+        <option value="Colleague">colleague</option>
+        <option value="Friend">Friend</option>
+        <option value="Soulmate">Soulmate</option>
+        <option value="other">Other</option>
+      </select>
+      <br /><br />
+      
+      <label for="insta">Insta post link : </label>
+      <input type="text" name="insta" id="insta" placeholder="Enter your insta post link" />
+      <br><br>
+      
+      <label for="myfile">Upload snap of your visit : </label>
+      <input type="file" id="myFile" name="filename" required />
+      <br /><br />
+      
+      <div><label for="text">Feedback :* </label></div>
+      <textarea name="text" id="text" rows="8" cols="50" placeholder="Please give your feedback here... " required></textarea>
+      <br /><br />
+      
+      <input type="submit"></input>
+      <br /><br />
+      <input type="reset"></input>
+    </form>
+  </div>
+</body>
+</html>
